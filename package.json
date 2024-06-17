@@ -1,0 +1,16 @@
+{
+  "name": "landing-page-brite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
