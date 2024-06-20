@@ -28,14 +28,15 @@ module.exports = {
       xl:'1200px',
     },
     backgroundImage: {
-      bg: 'url(/assets/bg/OurSolutions.jpg)',
+      hero: 'url(assets/hero/bg.jpg)',
+      grid: 'url(assets/grid.png)'
     },
     fontFamily: {
       primary: 'DM Sans Bold',
       second: 'Dm Sans Regular',
     },
 
-    
+
   },
   plugins: [],
 }
